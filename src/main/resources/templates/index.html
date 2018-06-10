@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<head>
+    <!--meta charset="UTF-8">
+    <title>Books Shop Online</title-->
+    <link rel="stylesheet" type="text/css" th:href="@{css/styles.css}" />
+
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon.png">
+    <title>
+        Welcome to FlatShop
+    </title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,700,500italic,100italic,100' rel='stylesheet' type='text/css'>
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen"/>
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+<th:block th:include="_header"></th:block>
+<th:block th:include="_menu"></th:block>
+
+<div class="page-title">Shopping Cart Demo</div>
+<div class="demo-container">
+    <h3>Demo content</h3>
+    <ul>
+        <li>Buy online</li>
+        <li>Admin pages</li>
+        <li>Reports</li>
+    </ul>
+</div>
+
+<th:block th:include="_footer"></th:block>
+
+</body>
+</html>
